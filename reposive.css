@@ -1,0 +1,28 @@
+@media all and (min-width:800px){
+    .left{
+        background-color: #3498db;
+    }
+    .middle{
+        background-color: #2c3e50;
+    }
+    .right{
+        background-color: lawngreen;
+    }
+    .footer{
+        background-color: #2ecc71;
+    }
+}
+@media all and (max-width:700px){
+    .left{
+       width: 100%;
+        float: none;
+    }
+    .middle{
+        width: 100%;
+        float: none;
+    }
+    .right{
+        width: 100%;
+        float: none;
+    }
+}

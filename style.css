@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.head{
+    background-color: red;
+    height: 150px;
+    margin-top: 30px;
+  
+}
+.left{
+    width: 25%;
+    background-color: green;
+    height: 150px;
+    float: left;
+
+}
+.middle{
+    width: 50%;
+    background-color: hotpink;
+    height: 150px;
+    overflow: hidden;
+    float: left;
+    
+}
+.right{
+    width: 25%;
+    background-color: yellow;
+    
+    overflow: hidden;
+    height: 150px;
+}
+.add:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.footer{
+background-color: #e74c3c;
+height: 150px;
+
+}
